@@ -10,8 +10,7 @@ int main() {
   scanf("%lf", &gb);
   bytes = gb * 1024 * 1024 * 1024;
 
-  printf("%.2f gigabytes equivalem a bagatela de %lld bytes.\n", gb, bytes);
-
+  printf("%.2f gigabytes equivalem a de %lld bytes.\n", gb, bytes);
       
 return 0;
 }
